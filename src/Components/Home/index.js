@@ -1,4 +1,5 @@
 function Home() {
+    return(
     <div className="Main-Container">
         <section id="home">
             <div class="main">
@@ -7,6 +8,7 @@ function Home() {
             </div>
         </section>
     </div>
+    );
 }
 
 export default Home;
