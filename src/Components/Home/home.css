@@ -1,0 +1,15 @@
+.Main-Container {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    margin: auto;
+}
+
+.container {
+    justify-content: center;
+}
+
+.main {
+    text-align: center;
+}

@@ -1,11 +1,10 @@
 .Navbar {
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
     background-color: black;
-    padding: 15px;
-    margin: 0;
+    padding: 20px;
     align-items: center;
+    border-bottom: solid 1px #fff;
 }
 
 .logo {

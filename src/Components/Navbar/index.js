@@ -5,7 +5,6 @@ import "./navbar.css";
 function Navbar() {
 
     return (
-        <section>
             <nav className="Navbar">
                 <div className="logo">
                 <Link to="/" className="home">AMG</Link>
@@ -14,7 +13,6 @@ function Navbar() {
                 <Link to="Gallery" className="Gallery"> Gallery </Link>
                 <Link to="Social" className="Social"> Social </Link>
             </nav>
-        </section>
     );
 }
 

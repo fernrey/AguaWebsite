@@ -1,3 +1,4 @@
+import "./about.css"
 function About() {
     return (
       <div className="Main-Container">
