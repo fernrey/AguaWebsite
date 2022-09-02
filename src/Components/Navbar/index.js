@@ -12,6 +12,7 @@ function Navbar() {
                 <Link to="About" className="about"> About </Link>
                 <Link to="Gallery" className="Gallery"> Gallery </Link>
                 <Link to="Social" className="Social"> Social </Link>
+                <button className="Contact">Contact</button>
             </nav>
     );
 }

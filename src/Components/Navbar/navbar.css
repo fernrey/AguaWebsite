@@ -1,6 +1,6 @@
 .Navbar {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: black;
     padding: 20px;
     align-items: center;
@@ -9,6 +9,7 @@
 
 .logo {
    font-size: 40px;
+   margin-left: 10px;
 }
 
 .home {
@@ -29,4 +30,15 @@
 .Social {
     text-decoration: none;
     color: #fff;
+}
+
+.Contact {
+    border: 1px solid transparent;
+    border-radius: 16px;
+    padding: 10px;
+    color: #fff;
+    font-size: 20px;
+    background-color: slategray;
+    margin-right: 10px;
+    cursor: pointer;
 }

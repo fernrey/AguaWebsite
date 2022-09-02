@@ -1,3 +1,50 @@
-.Main-Container {
-    
+.MainContainer {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 100%;
+}
+
+.heading {
+    text-align: center;
+}
+
+.Container {
+    width: 80%;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.image-container {
+    display: flex;
+    width: 500px;
+    height: 500px;
+    border-radius: 12px;
+    background-color: #fff;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+.image {
+    width: 400px;
+    height: 400px;
+    margin: 10px;
+    object-fit: cover;
+    box-shadow: 5px 8px 8px #8A8989
+}
+
+@media screen and (max-width: 630px) {
+    .image-container {
+        width: 400px;
+        height: 400px;
+    }
+    .image {
+        width: 300px;
+        height: 300px;
+        margin: 10px;
+    }
 }

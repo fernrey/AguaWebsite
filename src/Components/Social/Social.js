@@ -1,25 +1,25 @@
-import { Container, Card, CardText, Text } from "./Component";
+import { Container, Card, CardText, Header, Text, CardContainer } from "./Component";
 function Social() {
     return (
         <Container>
-            <Card >
-            <Text>Linkedln</Text>
-                <CardText>
-                    Follow
-                </CardText>
-            </Card>
-            <Card >
-            <Text>Instagram</Text>
-                <CardText>
-                    Follow
-                </CardText>
-            </Card>
-            <Card>
-            <Text>Example</Text>
-                <CardText>
-                    Follow
-                </CardText>
-            </Card>
+            <Header primary>Follow My Socials</Header>
+            <CardContainer>
+                <Card>
+                    <Header>Linkedln</Header>
+                    <Text>Stay up to date with new post</Text>
+                    <CardText>Follow</CardText>
+                </Card>
+                <Card >
+                    <Header>Instagram</Header>
+                    <Text>Stay up to date with new post</Text>
+                    <CardText>Follow</CardText>
+                </Card>
+                <Card>
+                    <Header>Flickr</Header>
+                    <Text>Stay up to date with new post</Text>
+                    <CardText>Follow</CardText>
+                </Card>
+            </CardContainer>
         </Container>
     );
 }
